@@ -90,5 +90,14 @@
         text-align: center;
         align-items: center;
     }
+
+    .project1Info :nth-child(1){
+      margin-bottom: 1rem;
+    }
+
+    .project1Info :nth-child(2){
+      text-align: justify;
+      margin-bottom: 1rem;
+    }
   }
   
