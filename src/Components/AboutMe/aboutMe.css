@@ -1,0 +1,50 @@
+.aboutMeDiv {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    margin: 8rem auto; 
+    gap: 3rem;
+}
+
+.aboutMeHeading > h1 {
+    font-size: 3rem; 
+}
+
+.aboutMeHeading > h4 {
+    background: linear-gradient(to right, violet, indigo, blue, yellow, orange, red); 
+    background-clip: text;
+    color: transparent; 
+}
+
+.aboutMeInfo {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    margin: auto;
+    padding: 0 8rem; 
+    text-align: justify; 
+}
+
+.aboutMeInfo h4:first-child{
+    margin-bottom: 2rem;
+}
+
+.aboutMeInfo > h4 > span {
+    background: linear-gradient(to right, green, orange, red); 
+    background-clip: text; 
+    color: transparent; 
+}
+
+
+@media screen and (max-width: 768px) {
+    .aboutMeDiv {
+        margin: 4rem auto; 
+    }
+
+    .aboutMeHeading > h1 {
+        font-size: 2rem; 
+    }
+
+    .aboutMeInfo {
+        padding: 2rem;
+    }
+}

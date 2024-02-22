@@ -1,0 +1,64 @@
+.skillsContainer{
+    margin: 8rem 1rem;
+    box-shadow: 0 0px 8px rgba(255, 255, 255, 0.5);
+}
+
+.skillsHeading{
+    text-align: center;
+}
+
+.skillsHeading h1{
+    font-size: 3rem;
+}
+
+.skillsHeading h3{
+    font-size: 1rem;
+    background: linear-gradient(to right, violet, indigo, blue, yellow, orange, red); 
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 3rem;
+}
+
+.skillsLevel .skills-per{
+    background-color: red;
+    font-size: 25px;
+    line-height: 34px;
+}
+
+*{box-sizing:border-box}
+
+.skillsInfo{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.skillsInfo p{
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.container{
+  width: 70%;
+  background-color: white; 
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.skills {
+  text-align: right; 
+  color: black; 
+  border-radius: 1rem;
+  padding: 0 .5rem;
+}
+
+.html {width: 100%; background-color: #04AA6D;} 
+.css {width: 100%; background-color: #2196F3;} 
+.js {width: 90%; background-color: #f44336;} 
+.React {width: 100%; background-color: #808080;} 
+.Bootstrap {width: 100%; background-color: #fab105;} 
+.MaterialUI {width: 80%; background-color: #05d3f3;} 
+.Redux {width: 100%; background-color: #eaf605;} 
+.NextJs {width: 30%; background-color: #6623c3;} 
+

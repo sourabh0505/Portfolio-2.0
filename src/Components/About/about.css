@@ -1,0 +1,88 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem 0;
+}
+
+.profileImage {
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../About/profileImage.jpg');
+    margin-bottom: 2rem;
+}
+
+.profileImage:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 1s ease;
+}
+
+
+@media screen and (max-width: 768px) {
+    .profileImage {
+        width: 200px;
+        height: 200px;
+        margin: 2rem auto; 
+    }
+}
+
+
+.nameDiv{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center; 
+    text-align: center;
+}
+
+.nameDiv > h1 {
+    color: skyblue;
+    font-size: 5rem; 
+    margin-bottom: 1rem; 
+}
+
+.nameDiv > h4 > span {
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    color: transparent;
+}
+
+.nameDiv > :nth-child(2){
+    margin-bottom: 1.5rem;
+}
+
+.nameDiv > :nth-child(3) {
+    font-size: 1.4rem; 
+    padding: 0 2rem; 
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .nameDiv {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .nameDiv > h1 {
+        font-size: 3rem; 
+        margin-bottom: 0.5rem;
+    }
+
+    .nameDiv > :nth-child(3) {
+        font-size: 1rem; 
+        padding: 0 1rem; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contactBtn > button {
+        padding: .3rem 2rem; 
+        font-size: 1rem; 
+    }
+}
