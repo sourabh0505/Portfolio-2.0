@@ -36,7 +36,7 @@ function Skills() {
                  <div className="skills Bootstrap">Intermediate</div>
             </div>
 
-            <p>MaterialUI</p>
+            <p>Material UI</p>
             <div className="container">
                  <div className="skills MaterialUI">Intermediate</div>
             </div>

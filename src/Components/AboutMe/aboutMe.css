@@ -29,9 +29,7 @@
 }
 
 .aboutMeInfo > h4 > span {
-    background: linear-gradient(to right, green, orange, red); 
-    background-clip: text; 
-    color: transparent; 
+    color: orange;
 }
 
 

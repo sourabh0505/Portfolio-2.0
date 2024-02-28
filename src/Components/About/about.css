@@ -48,9 +48,7 @@
 }
 
 .nameDiv > h4 > span {
-    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
-    background-clip: text;
-    color: transparent;
+    color: orange;
 }
 
 .nameDiv > :nth-child(2){
